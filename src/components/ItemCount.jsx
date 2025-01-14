@@ -20,14 +20,14 @@ function ItemCount(props) {
     }
 
     return (
-        <div>
-            <div>
+        <div className="flex flex-col m-5">
+            <div className="text-red-900 font-semibold ">
                 <button onClick={handleAdd}>+</button>
                 <span>{count}</span>
                 <button onClick={handleSubstract}>-</button>
             </div>
-            <div>
-                <button onClick={handleClick}>Agregar al carrito</button>
+            <div >
+                <button onClick={handleClick} className="decoration-double text-red-900 font-semibold underline">Agregar al carrito</button>
             </div>
         </div>
     );

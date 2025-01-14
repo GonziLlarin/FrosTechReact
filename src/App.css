@@ -14,11 +14,15 @@
   justify-content: center;
 }
 
+.img-helado {
+  height: 100px;
+  margin: auto;
+}
 
 .card {
   border: 1px, solid, red;
   width: 200px;
-  height: 250px;
+  height: 300px;
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -27,8 +31,9 @@
 .itemDetail {
   display: flex;
   flex-direction: column;
+  width: 70%;
+  margin: 20px auto;
   border: 1px, solid, red;
-  width: 200px;
   justify-content: center;
   align-items: center;
 }

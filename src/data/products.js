@@ -8,7 +8,7 @@ const products = [
           status: true,
           stock: 30,
           category: "Clasico",
-          image: "https://cdn.pixabay.com/photo/2023/02/08/06/33/fashion-7775827_1280.jpg",
+          image: "https://imgs.search.brave.com/ck5vC8afXeG9tKQG86HPUIij2ZkFTJh1vugSRoO-qog/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vdFJzRHh3/Mm1nYUZYUFV5NUpW/TWNYaXdNeXA2c1dx/XzF4UW8wTjNNMnlU/SS9yczpmaXQ6NTYw/OjMyMDoxOjAvZzpj/ZS9hSFIwY0hNNkx5/OXBiV2N1L1puSmxa/WEJwYXk1amIyMHYv/Wm05MGIzTXRjSEps/YldsMS9iUzlvWld4/aFpHOHRZMjl1L2Ix/OHhNREkxTVRVeUxU/TXUvYW5CblAzTmxi/WFE5WVdsei9YMmg1/WW5KcFpB.jpeg",
      },
      {
           id: 2,
@@ -19,7 +19,7 @@ const products = [
           status: true,
           stock: 20,
           category: "Clasico",
-          image: "https://cdn.pixabay.com/photo/2023/02/08/06/33/fashion-7775827_1280.jpg"
+          image: "https://media.istockphoto.com/id/1944687241/photo/portrait-of-young-girl-with-beautiful-skin-and-make-up.jpg?s=2048x2048&w=is&k=20&c=UppaiW7nGm5iB-93dz_Jsn8JvSZ5PAxlEkTg1arZ5dQ="
      },
      {
           id: 3,
@@ -30,7 +30,7 @@ const products = [
           status: true,
           stock: 50,
           category: "Frutal",
-          image: "https://www.publicdomainpictures.net/pictures/30000/velka/strawberry-ice-cream-1461304150Z3N.jpg"
+          image: "https://imgs.search.brave.com/ck5vC8afXeG9tKQG86HPUIij2ZkFTJh1vugSRoO-qog/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vdFJzRHh3/Mm1nYUZYUFV5NUpW/TWNYaXdNeXA2c1dx/XzF4UW8wTjNNMnlU/SS9yczpmaXQ6NTYw/OjMyMDoxOjAvZzpj/ZS9hSFIwY0hNNkx5/OXBiV2N1L1puSmxa/WEJwYXk1amIyMHYv/Wm05MGIzTXRjSEps/YldsMS9iUzlvWld4/aFpHOHRZMjl1L2Ix/OHhNREkxTVRVeUxU/TXUvYW5CblAzTmxi/WFE5WVdsei9YMmg1/WW5KcFpB.jpeg"
      },
      {
           id: 4,
