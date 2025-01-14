@@ -13,7 +13,7 @@ export default function Navbar(props) {
             <NavLink className="text-red-400 font-semibold italic" to="/category/Especial">Especiales</NavLink>
             <NavLink className="text-red-400 font-semibold italic" to="/category/tropical">Tropicales</NavLink>
             <NavLink className="text-red-400 font-semibold italic" to="/category/frutal">Frutales</NavLink>
-            <NavLink className="text-red-400 font-semibold italic">Contacto</NavLink>
+            <a href="https://www.instagram.com/training.gl/" target="_BLANK" className="text-red-400 font-semibold italic">Contacto</a>
             <CartWidget />
         </div >
     )
