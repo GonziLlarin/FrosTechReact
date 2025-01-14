@@ -1,14 +1,31 @@
-// import CardContainer from "./CardContainer";
+import getAsyncData, { getAsyncItemsByCategory } from "../data/getAsyncData";
+import { useState, useEffect } from "react";
+import ItemList from "./ItemList";
+import { useParams } from "react-router-dom";
 
-export default function ItemListContainer(props) {
-    const { greeting } = props
+function ItemListContainer(props) {
+    const [products, setProducts] = useState([]);
+    const { catid } = useParams();
+
+    useEffect(() => {
+        if (catid === undefined) {
+            const respuestaPromise = getAsyncData();
+            respuestaPromise
+                .then((respuesta) => setProducts(respuesta))
+                .catch((error) => alert(error));
+        } else {
+            const respuestaPromise = getAsyncItemsByCategory(catid);
+            respuestaPromise
+                .then((respuesta) => setProducts(respuesta))
+                .catch((error) => alert(error));
+        }
+    }, [catid]);
+
     return (
-
-        <h1 className="text-xl font-extrabold italic text-red-900 p-5 shadow-md">{greeting}</h1>
-    )
+        <div>
+            <ItemList greeting={props.greeting} products={products} />
+        </div>
+    );
 }
 
-
-{/* <section className="border-solid flex">*/ }
-{ /* <CardContainer /> */ }
-{/* </section> */ }
+export default ItemListContainer;
